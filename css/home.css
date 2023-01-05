@@ -127,3 +127,60 @@ header {
 .accordion-button:not(.collapsed)::after {
   filter: brightness(0%) invert(100%);
 }
+
+
+footer {
+  background-color: #000000;
+  padding-top: 32px;
+}
+
+footer p {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: #EBEBEB;
+}
+
+footer .btn {
+  background-color:#FED32C;
+  color: #000000;
+}
+
+footer .btn:hover {
+  background-color:#000000;
+  color: #FED32C;
+  border: 1px solid #FED32C;
+}
+
+footer h5 {
+  font-family: 'Poppins', sans-serif;
+  color: #FED32C;
+  font-weight: 600;
+}
+
+footer a {
+  text-decoration: none;
+  font-family:'Poppins', sans-serif;
+  color: #EBEBEB;
+  font-size: 14px;
+}
+
+footer a:hover {
+  color: #FED32C;
+  text-decoration: underline;
+}
+
+.copyrights {
+  background-color: #FED32C;
+}
+
+.copy {
+  margin: 0px;
+  padding-top: 16px;
+  padding-bottom: 0px;
+}
+
+.copy .col-3 {
+  text-align: end;
+}
