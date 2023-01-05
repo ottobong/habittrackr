@@ -89,3 +89,19 @@ header {
 .productive {
   margin-top: 80px;
 }
+
+.testimonials {
+  margin-top: 80px;
+}
+
+.testimonials p {
+  padding-top: 4px;
+}
+
+.testimonials .card {
+  padding-bottom: 18px;
+}
+
+.testimonials .row {
+  padding-top: 0px;
+}
