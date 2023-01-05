@@ -105,3 +105,25 @@ header {
 .testimonials .row {
   padding-top: 0px;
 }
+
+.faq {
+  margin-top: 80px;
+  margin-bottom: 120px;
+}
+
+.faq .row {
+  padding-top: 4px;
+}
+
+.accordion-button {
+  font-family: 'Poppins', sans-serif;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #000000;
+  color: #FED32C;
+}
+
+.accordion-button:not(.collapsed)::after {
+  filter: brightness(0%) invert(100%);
+}
