@@ -111,6 +111,10 @@ header {
   margin-bottom: 120px;
 }
 
+.faq p {
+  padding-top: 4px;
+}
+
 .faq .row {
   padding-top: 4px;
 }
