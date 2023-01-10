@@ -1,0 +1,64 @@
+body {
+  font-family: sans-serif;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#habit-form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#habit-form label {
+  flex: 0 0 100px;
+}
+
+#habit-form input[type="text"] {
+  flex: 1;
+  padding: 5px;
+  font-size: 16px;
+}
+
+#habit-form button[type="submit"] {
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#habit-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#habit-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+}
+
+#habit-list li span {
+  flex: 1;
+  font-size: 16px;
+}
+
+#habit-list li .complete {
+  color: green;
+}
+
+#habit-list li .incomplete {
+  color: red;
+}
