@@ -1,12 +1,24 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./formInput.scss"
 
 const FormInput = (props) => {
-  const { onChange, id, ...inputProps } = props;
+  const [focused, setFocused] = useState(false);
+  const { errorMessage, onChange, id, ...inputProps } = props;
 
-  return <div className = "formInput">
-    <input {...inputProps} onChange={onChange} />
-  </div>
-}
+  const handleFocus= (e) => {
+    setFocused(true);
+  };
+
+  return ( 
+    <div className = "formInput">
+      <input 
+        {...inputProps} 
+        onChange={onChange} 
+        onBlur={handleFocus} 
+        focused = {focused.toString()}/>
+      <span className='errorMessage'>{errorMessage}</span>
+    </div>
+  );
+};
 
 export default FormInput
