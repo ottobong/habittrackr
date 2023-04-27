@@ -133,3 +133,5 @@ const Main = () =>{
     </section>
    </div>
     )}
+
+    export default Main;
