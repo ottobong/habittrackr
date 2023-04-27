@@ -5,5 +5,40 @@
   height: 100vh;
   width: 100%;
   background-color: #FED32C;
+
+  form {
+    background-color: white;
+    max-width: 400px;
+    padding: 20px;
+    width: 100%;
+    border-radius: 10px;
+
+    h2 {
+      font-size: 20px;
+      font-weight: bold;
+      color: #000;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    button {
+      height: 50px;
+      width: 100%;
+      background-color: #FED32C;
+      border: none;
+      border-radius: 8px;
+      font-weight: 500;
+      font-size: 18px;
+      margin: 15px 0 10px 0;
+      cursor: pointer;
+      transition: .5s;
+
+      &:hover{
+        background-color: #000;
+        color: #FED32C;
+      }
+    }
+    
+  }
 }
 

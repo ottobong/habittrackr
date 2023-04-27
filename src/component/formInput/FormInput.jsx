@@ -2,11 +2,11 @@ import React from 'react'
 import "./formInput.scss"
 
 const FormInput = (props) => {
-  return (
-    <div className = "formInput">
-      <input placeholder={props.placeholder}/>
-    </div>
-  )
+  const { onChange, id, ...inputProps } = props;
+
+  return <div className = "formInput">
+    <input {...inputProps} onChange={onChange} />
+  </div>
 }
 
 export default FormInput

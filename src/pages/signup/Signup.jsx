@@ -40,10 +40,12 @@ const Signup = () => {
   const handleChange =(e)=> {
     setInputValues({...inputValues, [e.target.name]: e.target.value})
   }
+  console.log(inputValues);
 
   return (
     <div className='signup'>    
       <form>
+        <h2>Create an account</h2>
         {inputs.map((input) => (
           <FormInput key={input.id} 
           {...input} 
