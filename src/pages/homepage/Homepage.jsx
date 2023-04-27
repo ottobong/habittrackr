@@ -49,7 +49,6 @@ function FAQ() {
     },
   ];
 
-  import logo from './assets/Logo_alt.png';
 }
 
 
