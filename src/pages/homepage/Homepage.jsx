@@ -1,5 +1,6 @@
 import React from 'react'
 import './homepage.css'
+import logo from './assets/Logo_alt.png';
 
 const Homepage = () => {
   return (
@@ -49,7 +50,7 @@ function FAQ() {
     },
   ];
 
-  import logo from './assets/Logo_alt.png';
+
 }
 
 
