@@ -6,7 +6,7 @@ const Footer = () => {
         <div className="container">
           <div className="row">
             <div className="col-5">
-              <img src={logo} alt="logo" />
+              <img src= '' alt="" />
               <p>
                 Join the millions of people who have already transformed
                 <br />

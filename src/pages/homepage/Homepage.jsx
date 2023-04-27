@@ -1,15 +1,15 @@
 import React from 'react';
 import './homepage.css';
-import logo from './assets/Logo_alt.png';
-import main from './main';
-import navigation from './navigation';
+import Main from './main';
+import Navigation from './navigation';
+import Footer from './footer';
 
 const Homepage = () => {
   return (
     <div>
-      <navigation />
-      <main />
-      <footer />
+      <Navigation />
+      <Main />
+      <Footer />
     </div>
   )
 }
