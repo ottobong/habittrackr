@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import './signup.scss';
 import FormInput from '../../component/formInput/FormInput'
+import { Link } from 'react-router-dom';
+import { FacebookRounded, FacebookTwoTone } from '@mui/icons-material';
 
 const Signup = () => {
   const[inputValues, setInputValues]=useState({
@@ -54,6 +56,24 @@ const Signup = () => {
           />
         ))}
         <button type='submit'>Signup</button>
+        <div className="formLink">
+          <span>Already have an account?</span>
+          <Link 
+          to='/login' 
+          className='formSignup'
+          style={{ textDecoder: "none"}}>
+            {" "}
+            Login
+            </Link>
+        </div>
+
+        <div className="line"></div>
+        <div className="media-options">
+          <Link to='#' className='facebook'>
+            <FacebookTwoTone className='facebookIcon'/>
+            <span>Login with Facebook</span>
+          </Link>
+        </div>
       </form>
 
     </div>
