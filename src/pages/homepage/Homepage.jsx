@@ -51,5 +51,5 @@ function FAQ() {
 
 }
 
-
+export default Homepage;
 
