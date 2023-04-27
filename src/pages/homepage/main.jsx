@@ -84,7 +84,7 @@ const Main = () =>{
       <div className="container hero">
         <div className="row align-items-center">
           <div className="col-6">
-            <img src={productiveImage} alt="productive" />
+            <img src= 'C:\Users\cleme\Documents\ALX-Repos\habittrackr\src\pages\homepage\assets\productive_image.png' alt="productive" />
           </div>
           <div className="col-6">
             <h3>Be More Productive</h3>
