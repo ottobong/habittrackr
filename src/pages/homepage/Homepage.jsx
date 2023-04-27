@@ -7,7 +7,9 @@ import navigation from './navigation';
 const Homepage = () => {
   return (
     <div>
-      <h1>This is the homepage</h1>
+      <navigation />
+      <main />
+      <footer />
     </div>
   )
 }
