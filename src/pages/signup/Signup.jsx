@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './signup.scss';
 import FormInput from '../../component/formInput/FormInput'
 import { Link } from 'react-router-dom';
-import { FacebookRounded, FacebookTwoTone, Google } from '@mui/icons-material';
+import { FacebookTwoTone, Google } from '@mui/icons-material';
 
 const Signup = () => {
   const[inputValues, setInputValues]=useState({
@@ -90,7 +90,7 @@ const Signup = () => {
           className='google' 
           style={{textDecoration: 'none'}}>
             <Google className='googleIcon'/>
-            <span>Continue with Google</span>
+            <span>Signup with Google</span>
           </Link>
         </div>
       </form>
